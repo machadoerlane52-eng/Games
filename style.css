@@ -1,54 +1,54 @@
-body{
+* {
+    background-color: #dede1d;
     margin: 0;
-    min-height: 450vh;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #111;
-    padding: 15px 30px;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    font-size: 18px;
-}
-
-.navbar a:hover{
-    color: aqua;
-}
-
-.container h1 {
-    font-family: Arial
+    
 }
 
 .container {
-    margin-top: 400px
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Arial;
+    background-color: blueviolet;
+    border-radius: 20px;
+    justify-self: center    
 }
 
-.container h2{
+.container h1 {
+    background-color: blueviolet;
+    border-radius: 20px
+}
+
+.container i {
+    font-size: 50px;
+    background-color: blueviolet;
+    border-radius: 20px
+}
+
+.sub {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Arial
 }
 
-#sobre{
-    padding: 30px;
-    max-width: 1000px;
-    margin: auto;
+.jjs input {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 60px;
+    background-color: aliceblue
 }
 
-#sobre h1{
-    margin-bottom: 20px;
+.jjs button {
+    margin-top: 20px;
+    border-radius: 60px
 }
 
-#sobre h2{
-    margin-top: 30px;
-    margin-bottom: 10px;
+.resultado {
+    margin: 3px
 }
 
-#sobre ul{
-    margin-left: 25px;
+.container h3 {
+    background-color: blueviolet
 }
